@@ -27,7 +27,7 @@ DEBUG ?= y
 V ?=
 
 # Toolchain
-CROSS_COMPILE ?= tools/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-
+CROSS_COMPILE ?= /home/estrella/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-
 KCONF := scripts/kconfig/
 ECHO := echo
 CP := cp
