@@ -1,5 +1,5 @@
 {
     "files.associations": {
-        "elog.h": "c"
+        "*.h": "c",
     }
 }
