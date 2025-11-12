@@ -6,7 +6,7 @@ static bool led_state;
 
 void bl_led_init(void)
 {
-    // PA5
+    // PE5
     GPIO_InitTypeDef GPIO_InitStruct;
     GPIO_InitStruct.GPIO_Pin = GPIO_Pin_5;
     GPIO_InitStruct.GPIO_Mode = GPIO_Mode_OUT;

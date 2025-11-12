@@ -4,7 +4,7 @@
 
 void bl_button_init(void)
 {
-    // PA6
+    // PE0
     GPIO_InitTypeDef GPIO_InitStruct;
     GPIO_InitStruct.GPIO_Pin = GPIO_Pin_0;
     GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IN;
